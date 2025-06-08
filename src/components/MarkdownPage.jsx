@@ -27,17 +27,6 @@ function MarkdownPage({ filename }) {
     loadMarkdown();
   }, [filename]);
 
-  if (loading) {
-    return (
-      <div className="h-full flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
-          <p className="text-gray-500 dark:text-gray-400">Loading...</p>
-        </div>
-      </div>
-    );
-  }
-
   if (error) {
     return (
       <div className="h-full flex items-center justify-center">
@@ -49,10 +38,12 @@ function MarkdownPage({ filename }) {
     );
   }
 
+  // Show content immediately when available, or empty div while loading
   return (
     <div className="h-full overflow-y-auto">
       <div className="notion-content px-6 py-8">
-        <ReactMarkdown
+        {content && (
+          <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           rehypePlugins={[rehypeRaw]}
           components={{
@@ -104,6 +95,7 @@ function MarkdownPage({ filename }) {
         >
           {content}
         </ReactMarkdown>
+        )}
       </div>
     </div>
   );
