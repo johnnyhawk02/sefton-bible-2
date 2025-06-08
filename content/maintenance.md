@@ -21,11 +21,11 @@ Regular maintenance schedules and procedures for all facility equipment.
 ## Weekly Maintenance
 
 ### Deep Cleaning Schedule
-- **Monday:** Cardio equipment detailed clean
-- **Tuesday:** Weight machines inspection
-- **Wednesday:** Pool area deep clean
-- **Thursday:** Changing rooms maintenance
-- **Friday:** Reception and office areas
+- Monday: Cardio equipment detailed clean
+- Tuesday: Weight machines inspection
+- Wednesday: Pool area deep clean
+- Thursday: Changing rooms maintenance
+- Friday: Reception and office areas
 
 ### Safety Checks
 - Fire safety equipment inspection

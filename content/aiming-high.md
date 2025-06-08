@@ -14,11 +14,11 @@ Payments can be taken in person or over the phone.
 
 ## Taking Payment for Aiming High Activities
 
-1. Home screen - press **Activity** tab (yellow)
-2. Next screen - press **Aiming High**
+1. Home screen - press Activity tab (yellow)
+2. Next screen - press Aiming High
 3. Select activity type:
-   - **On Site Activity** (preset at £5.00)
-   - **Off Site Session** (preset at £10.00)
+   - On Site Activity (preset at £5.00)
+   - Off Site Session (preset at £10.00)
 4. Press return to main screen
 5. Take payment from parent
 
