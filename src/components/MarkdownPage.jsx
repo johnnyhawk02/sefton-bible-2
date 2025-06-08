@@ -6,15 +6,11 @@ import '../styles/notion.css';
 
 function MarkdownPage({ filename }) {
   const [content, setContent] = useState('');
-  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const loadMarkdown = async () => {
       try {
-        setLoading(true);
-        // In a real app, you'd load from /content folder
-        // For now, we'll import directly using Vite's raw imports
         const response = await fetch(`/content/${filename}.md`);
         if (!response.ok) {
           throw new Error(`Failed to load ${filename}.md`);
@@ -25,8 +21,6 @@ function MarkdownPage({ filename }) {
       } catch (err) {
         setError(err.message);
         setContent('');
-      } finally {
-        setLoading(false);
       }
     };
 
