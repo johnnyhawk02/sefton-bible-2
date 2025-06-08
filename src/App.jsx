@@ -57,7 +57,7 @@ function App() {
               <Route
                 key={file}
                 path={`/${file}`}
-                element={<MarkdownPage filename={file} />}
+                element={<MarkdownPage filename={file} allFiles={markdownFiles} />}
               />
             ))}
           </Routes>

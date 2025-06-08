@@ -2,22 +2,38 @@ import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
+import { markdownCache } from '../utils/markdownCache';
 import '../styles/notion.css';
 
-function MarkdownPage({ filename }) {
+function MarkdownPage({ filename, allFiles }) {
   const [content, setContent] = useState('');
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const loadMarkdown = async () => {
       try {
-        const response = await fetch(`/content/${filename}.md`);
-        if (!response.ok) {
-          throw new Error(`Failed to load ${filename}.md`);
+        // Check cache first for instant loading
+        if (markdownCache.has(filename)) {
+          const cachedContent = markdownCache.get(filename);
+          setContent(cachedContent);
+          setError(null);
+          
+          // Preload adjacent pages in background for tablet navigation
+          if (allFiles) {
+            markdownCache.preloadAdjacent(filename, allFiles);
+          }
+          return;
         }
-        const text = await response.text();
-        setContent(text);
+
+        // Load from cache (which handles fetch internally)
+        const content = await markdownCache.load(filename);
+        setContent(content);
         setError(null);
+        
+        // Preload adjacent pages in background for tablet navigation
+        if (allFiles) {
+          markdownCache.preloadAdjacent(filename, allFiles);
+        }
       } catch (err) {
         setError(err.message);
         setContent('');
@@ -25,7 +41,7 @@ function MarkdownPage({ filename }) {
     };
 
     loadMarkdown();
-  }, [filename]);
+  }, [filename, allFiles]);
 
   if (error) {
     return (
