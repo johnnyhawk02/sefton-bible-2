@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar';
 import MarkdownPage from './components/MarkdownPage';
 import DarkModeToggle from './components/DarkModeToggle';
+import InstallButton from './components/InstallButton';
 import { discoverMarkdownFiles, getMarkdownFiles } from './utils/markdownFiles';
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
           </Routes>
         </div>
       </div>
+      <InstallButton />
     </Router>
   );
 }
