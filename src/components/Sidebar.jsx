@@ -37,7 +37,7 @@ function Sidebar({ markdownFiles }) {
 
   return (
     <div className="h-full overflow-y-auto pl-2 pr-4 py-4">
-      <div className="mb-4 mt-2">
+      <div className="mb-4 mt-6">
         <div className="flex items-center mb-4 pl-2">
           <img 
             src="/logo.png" 
