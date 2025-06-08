@@ -42,7 +42,7 @@ function App() {
     <Router>
       <div className="flex h-full bg-white dark:bg-gray-900">
         {/* Sidebar */}
-        <div className="w-48 flex-shrink-0 bg-gray-50 dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col">
+        <div className="w-56 flex-shrink-0 bg-gray-50 dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col">
           <Sidebar markdownFiles={markdownFiles} />
           <div className="mt-auto p-4 border-t border-gray-200 dark:border-gray-700">
             <DarkModeToggle isDark={isDark} toggleDarkMode={toggleDarkMode} />
