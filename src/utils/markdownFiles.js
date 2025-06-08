@@ -1,45 +1,49 @@
 // Utility to get all markdown files dynamically
 export const getMarkdownFiles = async () => {
   try {
-    // Fetch the manifest from our Vite plugin API
-    const response = await fetch('/api/content-manifest');
-    if (!response.ok) {
-      throw new Error('Failed to fetch content manifest');
+    // First try to fetch the build-time generated manifest
+    const manifestResponse = await fetch('/content-manifest.json');
+    if (manifestResponse.ok) {
+      const manifest = await manifestResponse.json();
+      return manifest.files || [];
     }
-    
-    const data = await response.json();
-    return data.files || [];
   } catch (error) {
-    console.error('Error fetching markdown files:', error);
-    
-    // Fallback: try to discover files manually
-    return await discoverMarkdownFiles();
+    console.log('Build-time manifest not found, trying development API...');
   }
+
+  try {
+    // Fallback to development API from Vite plugin
+    const response = await fetch('/api/content-manifest');
+    if (response.ok) {
+      const data = await response.json();
+      return data.files || [];
+    }
+  } catch (error) {
+    console.error('Development API not available, using fallback discovery...');
+  }
+  
+  // Final fallback: manual discovery
+  return await discoverMarkdownFiles();
 };
 
 // Fallback auto-discovery function
 export const discoverMarkdownFiles = async () => {
-  // List of potential file names to check as fallback
+  // List of actual markdown files in the content folder
   const potentialFiles = [
-    'welcome',
-    'introduction', 
-    'intro',
-    'getting-started',
-    'how-to-sign-up',
-    'sign-up',
-    'membership',
-    'shift-checklist', 
-    'checklist',
-    'daily-tasks',
-    'procedures',
-    'emergency',
-    'policies',
-    'training',
-    'customer-service',
-    'faq',
-    'troubleshooting',
+    'aiming-high',
+    'class-descriptions',
+    'dos-and-donts',
+    'emergency-procedures',
+    'end-of-day',
+    'equipment-maintenance',
+    'example-new-page',
+    'faqs',
+    'fitness-classes',
     'library',
-    'opening-procedure'
+    'memberships',
+    'opening-procedure',
+    'staff-guidelines',
+    'till-checks'
   ];
 
   const existingFiles = [];
