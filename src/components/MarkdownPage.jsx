@@ -41,7 +41,7 @@ function MarkdownPage({ filename }) {
   // Show content immediately when available, or empty div while loading
   return (
     <div className="h-full overflow-y-auto">
-      <div className="notion-content px-6 py-8">
+      <div className="notion-content px-6 py-1">
         {content && (
           <ReactMarkdown
           remarkPlugins={[remarkGfm]}
