@@ -1,17 +1,17 @@
 # Library
 
-**Overview**
+## Overview
 
 Take payment for printing done by library members.
 
 ## Taking Payment for Library Printing
 
-- Home screen - press **Library** tab (yellow)
-- Next screen - press **MWLibrary** tab (pink)  
-- Next screen - press **Library Prints**
-- Key in amount due
-- Repeat step 4 to return to home screen
-- Take payment from member
+1. Home screen - press **Library** tab (yellow)
+2. Next screen - press **MWLibrary** tab (pink)  
+3. Next screen - press **Library Prints**
+4. Key in amount due
+5. Repeat step 4 to return to home screen
+6. Take payment from member
 
 ## Important Notes
 
