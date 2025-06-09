@@ -1,27 +1,26 @@
 # Daily Shift Checklist
 
-Complete this checklist at the beginning and end of each shift to ensure smooth operations.
+> **Stay organized and efficient!** Complete this checklist at the beginning and end of each shift to ensure smooth operations.
 
 ## Start of Shift
 
 ### Opening Procedures (30 minutes before opening)
 
-- Unlock reception area
--  Turn on all computers and systems
--  Check system status lights (all green)
--  Count cash drawer and verify amount
--  Review overnight incident reports
--  Check staff schedule for the day
+- [ ] Unlock reception area
+- [ ] Turn on all computers and systems
+- [ ] Check system status lights (all green)
+- [ ] Count cash drawer and verify amount
+- [ ] Review overnight incident reports
+- [ ] Check staff schedule for the day
 
 ### System Checks
 
-```bash
-# Daily system verification
-1. Member management system: ONLINE
-2. Payment processing: ACTIVE  
-3. Access control: FUNCTIONING
-4. Phone system: OPERATIONAL
-```
+| System | Status Required |
+|---------|----------------|
+| Member management system | ONLINE |
+| Payment processing | ACTIVE |
+| Access control | FUNCTIONING |
+| Phone system | OPERATIONAL |
 
 ### Preparation Tasks
 
@@ -44,11 +43,11 @@ Every hour, complete these quick checks:
 
 ### Customer Service Priorities
 
-> Remember: Every interaction shapes our reputation
+> **Remember:** Every interaction shapes our reputation
 
-- Greet every person within 10 seconds
-- Answer phones within 3 rings
-- Keep waiting times under 5 minutes
+- Greet every person within **10 seconds**
+- Answer phones within **3 rings**
+- Keep waiting times under **5 minutes**
 - Follow up on all member complaints
 
 ## End of Shift
@@ -66,14 +65,13 @@ Every hour, complete these quick checks:
 
 Only after closing time:
 
-```js
-// Shutdown sequence
-1. Log out of all systems
-2. Turn off customer computers
-3. Secure cash drawer
-4. Set alarm system
-5. Lock all doors
-```
+| Step | Action |
+|------|--------|
+| 1 | Log out of all systems |
+| 2 | Turn off customer computers |
+| 3 | Secure cash drawer |
+| 4 | Set alarm system |
+| 5 | Lock all doors |
 
 ### Final Checks
 
@@ -91,7 +89,7 @@ Only after closing time:
 4. Inform supervisor
 
 ### Medical Emergency
-1. Call emergency services (999)
+1. **Call emergency services (999)**
 2. Notify duty manager
 3. Clear the area
 4. Complete incident report

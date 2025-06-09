@@ -1,5 +1,7 @@
 # Class Descriptions
 
+> Complete descriptions of all fitness classes available at Sefton Leisure Centre. Use this guide to help members choose the right class for their fitness level and goals.
+
 ## Les Mills Classes
 
 ### Les Mills Virtual
@@ -29,13 +31,16 @@ Fully immersive 40-minute cycling workout through digitally-created worlds. Cine
 ## Les Mills GRIT Series
 
 ### GRIT Strength
-30-minute high-intensity interval training designed to improve strength and build lean muscle.
+**Duration:** 30 minutes  
+**Focus:** High-intensity interval training designed to improve strength and build lean muscle.
 
 ### GRIT Plyo
-30-minute plyometric-based workout using a bench. Explosive jumping exercises with agility training.
+**Duration:** 30 minutes  
+**Focus:** Plyometric-based workout using a bench. Explosive jumping exercises with agility training.
 
 ### GRIT Cardio
-30-minute high-intensity interval training that improves cardiovascular fitness and maximizes calorie burn.
+**Duration:** 30 minutes  
+**Focus:** High-intensity interval training that improves cardiovascular fitness and maximizes calorie burn.
 
 ## Water-Based Classes
 
@@ -45,7 +50,8 @@ Water-based exercise that supports your body and reduces strain. Less impact on 
 ## Specialty Classes
 
 ### Baby Ballet
-Sessions for ages 2-4 and 5-7. Fun, active and educational for boys and girls. Develops social skills and coordination.
+**Ages:** 2-4 and 5-7  
+**Description:** Fun, active and educational for boys and girls. Develops social skills and coordination.
 
 ### Boxercise
 Circuit-style fitness combining boxing moves and aerobic exercises. Improves shape, stamina and burns calories.
@@ -88,3 +94,7 @@ Focuses on flexibility, range of motion and relaxation. Blend of stretches and p
 
 ### Zumba
 Easy-to-follow dance class combining various dance styles. De-stress, shape up and party yourself into shape.
+
+---
+
+> **Note for Reception Staff:** Always check the current class schedule for availability and times. Some classes may have age restrictions or fitness level requirements.

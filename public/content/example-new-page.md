@@ -1,15 +1,15 @@
 # Example New Page
 
-This is a demonstration of how easy it is to add new content to the Reception Bible app.
+> **Adding content is easy!** This is a demonstration of how simple it is to add new content to the Reception Bible app.
 
 ## Automatic Discovery
 
 When you add this file to the `/content` folder:
 
-1. ✅ It appears in the sidebar automatically
-2. ✅ A new route is created at `/example-new-page`
-3. ✅ Hot reload updates the app immediately
-4. ✅ No code changes needed!
+1. It appears in the sidebar automatically
+2. A new route is created at `/example-new-page`
+3. Hot reload updates the app immediately
+4. No code changes needed!
 
 ## Content Guidelines
 
@@ -20,4 +20,4 @@ When you add this file to the `/content` folder:
 
 ## That's It!
 
-Just save this file and watch it appear in the sidebar. 🎉
+Just save this file and watch it appear in the sidebar!
