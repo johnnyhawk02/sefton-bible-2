@@ -1,6 +1,6 @@
 # Refunds
 
-## Call a Manager
+## Call a Manager (needed for authorising)
 
 ### For Guest
 

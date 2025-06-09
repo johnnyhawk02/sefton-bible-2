@@ -42,7 +42,7 @@ function Sidebar({ markdownFiles, onEditFile }) {
           <img 
             src="/logo.png" 
             alt="Gym Logo" 
-            className="h-4 mr-2"
+            className="h-4 mr-2 dark:invert"
           />
           <span className="text-lg font-semibold text-gray-900 dark:text-gray-100">
             Active Sefton
