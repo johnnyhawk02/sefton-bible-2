@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar';
 import MarkdownPage from './components/MarkdownPage';
+import MarkdownEditor from './components/MarkdownEditor';
 import DarkModeToggle from './components/DarkModeToggle';
 import InstallButton from './components/InstallButton';
 import { discoverMarkdownFiles, getMarkdownFiles } from './utils/markdownFiles';
@@ -9,6 +10,7 @@ import { discoverMarkdownFiles, getMarkdownFiles } from './utils/markdownFiles';
 function App() {
   const [isDark, setIsDark] = useState(false);
   const [markdownFiles, setMarkdownFiles] = useState([]);
+  const [editingFile, setEditingFile] = useState(null);
 
   useEffect(() => {
     // Initialize dark mode from localStorage
@@ -38,12 +40,20 @@ function App() {
     document.body.classList.toggle('dark', newDarkMode);
   };
 
+  const handleEditFile = (filename) => {
+    setEditingFile(filename);
+  };
+
+  const handleCloseEditor = () => {
+    setEditingFile(null);
+  };
+
   return (
     <Router>
       <div className="flex h-full bg-white dark:bg-gray-900">
         {/* Sidebar */}
         <div className="w-56 flex-shrink-0 bg-gray-50 dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col">
-          <Sidebar markdownFiles={markdownFiles} />
+          <Sidebar markdownFiles={markdownFiles} onEditFile={handleEditFile} />
           <div className="mt-auto p-4 border-t border-gray-200 dark:border-gray-700">
             <DarkModeToggle isDark={isDark} toggleDarkMode={toggleDarkMode} />
           </div>
@@ -51,16 +61,23 @@ function App() {
 
         {/* Main Content */}
         <div className="flex-1 overflow-hidden">
-          <Routes>
-            <Route path="/" element={<Navigate to="/welcome" replace />} />
-            {markdownFiles.map(file => (
-              <Route
-                key={file}
-                path={`/${file}`}
-                element={<MarkdownPage filename={file} allFiles={markdownFiles} />}
-              />
-            ))}
-          </Routes>
+          {editingFile ? (
+            <MarkdownEditor 
+              filename={editingFile} 
+              onClose={handleCloseEditor}
+            />
+          ) : (
+            <Routes>
+              <Route path="/" element={<Navigate to="/welcome" replace />} />
+              {markdownFiles.map(file => (
+                <Route
+                  key={file}
+                  path={`/${file}`}
+                  element={<MarkdownPage filename={file} allFiles={markdownFiles} />}
+                />
+              ))}
+            </Routes>
+          )}
         </div>
       </div>
       <InstallButton />
