@@ -42,6 +42,19 @@ export default function MarkdownEditor({ filename, onClose }) {
     setIsSaving(false);
   };
 
+  const handleSaveAs = () => {
+    // Create a downloadable file
+    const blob = new Blob([content], { type: 'text/markdown' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${filename}.md`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
   const insertFormatting = (before, after = '') => {
     const textarea = document.querySelector('.markdown-textarea');
     if (!textarea) return;
@@ -94,6 +107,12 @@ export default function MarkdownEditor({ filename, onClose }) {
             className="px-3 py-2 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors disabled:opacity-50"
           >
             {isSaving ? 'Copying...' : 'Copy'}
+          </button>
+          <button
+            onClick={handleSaveAs}
+            className="px-3 py-2 text-sm bg-green-600 text-white rounded hover:bg-green-700 transition-colors"
+          >
+            Download
           </button>
           <button
             onClick={onClose}
