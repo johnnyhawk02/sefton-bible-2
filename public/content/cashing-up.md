@@ -29,21 +29,3 @@
 
 ---
 
-## Important Notes
-
-> **Critical:** Ensure there's no variance
-
-- **Keep a written record** of Till 1 and Till 2 cash + card totals
-- **Once in Z Readings, do not adjust readings**
-
-## Quick Reference
-
-| Till Order | Process | Key Points |
-|------------|---------|------------|
-| **Till 2 First** | Generate → Write down → Close → Say "No" | Process locker refunds |
-| **Till 1 Second** | Generate → Write down → Close → Say "No" | Process locker refunds |
-| **Z Readings** | Add both tills → Enter combined totals | Final step - no adjustments |
-
----
-
-> **Remember:** Always complete Till 2 before Till 1, and never adjust readings once Z Readings has been started.
