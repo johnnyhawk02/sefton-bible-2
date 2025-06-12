@@ -1,66 +1,49 @@
 # Cashing Up
 
-> Complete end-of-day procedure for Till 1 and Till 2 terminal readings and Z readings.
+> Complete end-of-day procedure for both tills. **Important:** Do Till 2 first, then Till 1.
 
-## 1. Terminal Readings (Till 1 & Till 2)
+## Cash Up Both Tills
 
-For each till, complete the following steps:
+### Order: Till 2 first, then Till 1
 
-1. Click the **Cog icon** (top-right corner)
-2. Go to **POS Reading** → **Terminal**
-3. Click on **Counted Total** → **Generate Readings**
-4. **Write down cash and card takings on paper**
-   - Include any locker band sales too
+1. Click the **Cog icon** → **POS Reading** → **Terminal Reading**
+2. Click **Counted Total** → **Generate**
+3. Scroll to bottom and **write down cash and card takings**
+4. Press **Close**
+5. When prompted **"Is this your final reading?"** press **No**
+6. Go to **POS** and process locker refunds
+7. Return to **Cog icon** → **POS Reading** → **Terminal**
+8. Click **Counted Total**
+9. **Input the cash and card amounts**
+10. Click **Generate**
 
-## 2. Locker Band Refunds (if any)
+---
 
-After noting down totals but before finalising:
+## Z Readings (Combined)
 
-1. Go back to the main screen
-2. Process any locker band refunds
-
-## 3. Input Cash & Card Payments (Each Till)
-
-For each till:
-
-1. Go back to **POS Reading** → **Terminal**
-2. Click **Counted Total**
-3. Enter the actual cash and card totals
-4. Click **Generate Readings** → **Print**
-
-## 4. Final Readings
-
-Click on **Final Readings** for each till
-
-## 5. Z Readings (Both Tills)
-
-Complete the end-of-day process:
-
-1. **Add up Till 1 + Till 2** cash and card takings
+1. **Add Till 1 + Till 2** cash and card totals
 2. Click **Cog** → **POS Readings** → **Z Readings**
 3. Click **Counted Total**
-4. Enter the **combined totals**
-5. Click **Generate Readings** → **Print**
+4. **Enter the combined totals**
+5. Click **Generate**
 
 ---
 
 ## Important Notes
 
-> **Critical:** Always check for no variance
+> **Critical:** Ensure there's no variance
 
-- **Keep a written record** of cash and card totals from both tills
-- **Do not touch or adjust readings** once Z readings have been selected
+- **Keep a written record** of Till 1 and Till 2 cash + card totals
+- **Once in Z Readings, do not adjust readings**
 
 ## Quick Reference
 
-| Step | Action | Notes |
-|------|--------|-------|
-| **1. Terminal Readings** | POS Reading → Terminal → Generate | Write down cash, card & locker sales |
-| **2. Locker Refunds** | Process before finalising | If applicable |
-| **3. Input Totals** | Enter actual totals → Print | For each till |
-| **4. Final Readings** | Complete for each till | Required step |
-| **5. Z Readings** | Combined totals → Print | End of day complete |
+| Till Order | Process | Key Points |
+|------------|---------|------------|
+| **Till 2 First** | Generate → Write down → Close → Say "No" | Process locker refunds |
+| **Till 1 Second** | Generate → Write down → Close → Say "No" | Process locker refunds |
+| **Z Readings** | Add both tills → Enter combined totals | Final step - no adjustments |
 
 ---
 
-> **Remember:** Any discrepancies must be reported to the duty manager immediately before completing Z readings.
+> **Remember:** Always complete Till 2 before Till 1, and never adjust readings once Z Readings has been started.
