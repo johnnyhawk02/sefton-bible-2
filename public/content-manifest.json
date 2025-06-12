@@ -1,12 +1,15 @@
 {
   "files": [
     "aiming-high",
+    "cashing-up",
+    "class-descriptions",
     "classes",
     "dos-and-donts",
     "emergency",
-    "end-of-day",
+    "example-new-page",
     "faqs",
     "fitness-classes",
+    "how-to-sign-up",
     "library",
     "maintenance",
     "memberships",
@@ -18,5 +21,5 @@
     "till-checks",
     "welcome"
   ],
-  "generated": "2025-06-09T12:00:35.021Z"
+  "generated": "2025-06-12T13:30:59.795Z"
 }
