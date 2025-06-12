@@ -1,77 +1,66 @@
 # Cashing Up
 
-> Complete procedure for cashing up Till 1 and Till 2 at end of day.
+> Complete end-of-day procedure for Till 1 and Till 2 terminal readings and Z readings.
 
-## Till 1 Takings
+## 1. Terminal Readings (Till 1 & Till 2)
 
-### Step 1 - Till 1
-Click **Cog** → **Terminal Readings** → **Counted Total** → **Generate Readings**
+For each till, complete the following steps:
 
-### Step 2 - Write Down Takings
-Write down both card and cash takings on paper.
+1. Click the **Cog icon** (top-right corner)
+2. Go to **POS Reading** → **Terminal**
+3. Click on **Counted Total** → **Generate Readings**
+4. **Write down cash and card takings on paper**
+   - Include any locker band sales too
 
-### Step 3 - Input Cash & Card Payments
-Click **Back**, then click **Counted Total** again.
+## 2. Locker Band Refunds (if any)
 
-### Step 4 - Finalise Takings
-Type in cash + card takings.
-Click **Generate Readings**, then click **Print**.
+After noting down totals but before finalising:
 
-### Step 5 - Final Readings
-Click on **Final Readings**.
+1. Go back to the main screen
+2. Process any locker band refunds
 
----
+## 3. Input Cash & Card Payments (Each Till)
 
-## Till 2 Takings
+For each till:
 
-### Step 1 - Till 2
-Click **Cog** → **Terminal Readings** → **Counted Total** → **Generate Readings**
+1. Go back to **POS Reading** → **Terminal**
+2. Click **Counted Total**
+3. Enter the actual cash and card totals
+4. Click **Generate Readings** → **Print**
 
-### Step 2 - Write Down Takings
-Write down both card and cash takings on paper.
+## 4. Final Readings
 
-### Step 3 - Input Cash & Card Payments
-Click **Back**, then click **Counted Total** again.
+Click on **Final Readings** for each till
 
-### Step 4 - Finalise Takings
-Type in cash + card payments.
-Click **Generate Readings**, then click **Print**.
+## 5. Z Readings (Both Tills)
 
-### Step 5 - Final Readings
-Click on **Final Readings**
+Complete the end-of-day process:
 
----
-
-## Z Readings (Both Tills)
-
-### Step 6 - Add Totals
-Add Till 1 + Till 2 card and cash takings together.
-
-### Step 7 - Z Readings (Part 1)
-Click **Cog** → **POS Readings** → **Z Readings**
-Click **Counted Total**, then add the total from both tills.
-
-### Step 8 - Z Readings (Part 2)
-Input the total, **Generate Readings**, then **Print**.
+1. **Add up Till 1 + Till 2** cash and card takings
+2. Click **Cog** → **POS Readings** → **Z Readings**
+3. Click **Counted Total**
+4. Enter the **combined totals**
+5. Click **Generate Readings** → **Print**
 
 ---
 
 ## Important Notes
 
-> **Critical:** Make sure there's no variance.
+> **Critical:** Always check for no variance
 
-**Keep a written record** of both tills' cash and card totals for reference.
-
-**When using Z Readings:** Do not touch or adjust the system readings.
+- **Keep a written record** of cash and card totals from both tills
+- **Do not touch or adjust readings** once Z readings have been selected
 
 ## Quick Reference
 
-| Step | Action | Result |
-|------|--------|---------|
-| **Till 1** | Generate → Write → Input → Print → Final | Till 1 readings complete |
-| **Till 2** | Generate → Write → Input → Print → Final | Till 2 readings complete |
-| **Z Readings** | Add totals → POS Readings → Input → Print | End of day complete |
+| Step | Action | Notes |
+|------|--------|-------|
+| **1. Terminal Readings** | POS Reading → Terminal → Generate | Write down cash, card & locker sales |
+| **2. Locker Refunds** | Process before finalising | If applicable |
+| **3. Input Totals** | Enter actual totals → Print | For each till |
+| **4. Final Readings** | Complete for each till | Required step |
+| **5. Z Readings** | Combined totals → Print | End of day complete |
 
 ---
 
-> **Remember:** Always double-check figures before finalizing readings. Any discrepancies must be reported to the duty manager immediately.
+> **Remember:** Any discrepancies must be reported to the duty manager immediately before completing Z readings.
