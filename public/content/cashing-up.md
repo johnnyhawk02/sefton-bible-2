@@ -8,10 +8,10 @@
 
 1. Click the **Cog icon** → **POS Reading** → **Terminal Reading**
 2. Click **Counted Total** → **Generate**
-3. Scroll to bottom and **write down cash and card takings**
-4. Press **Close**
-5. When prompted **"Is this your final reading?"** press **No**
-6. Go to **POS** and process locker refunds
+3. Go to **POS** and process locker refunds
+4. Scroll to bottom and **write down cash and card takings**
+5. Press **Close**
+6. When prompted **"Is this your final reading?"** press **No**
 7. Return to **Cog icon** → **POS Reading** → **Terminal**
 8. Click **Counted Total**
 9. **Input the cash and card amounts**
