@@ -1,6 +1,6 @@
 # Cashing Up
 
-> Complete end-of-day procedure for both tills. **Important:** Do Till 2 first, then Till 1.
+> Complete end-of-day procedure for both tills.
 
 ## Cash Up Both Tills
 
