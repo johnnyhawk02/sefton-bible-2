@@ -19,7 +19,7 @@
 
 ---
 
-## Z Readings (Combined, just do on till you finish on)
+## Z Readings (Just do on till you finish on)
 
 1. **Add Till 1 + Till 2** cash and card totals
 2. Click **Cog** → **POS Readings** → **Z Readings**
