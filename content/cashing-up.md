@@ -5,6 +5,7 @@
 ## Cash Up Both Tills
 
 ### Do this for each till (in any order)
+Take out £50 float
 
 1. Click the **Cog icon** → **POS Reading** → **Terminal Reading**
 2. Click **Counted Total** → **Generate**
