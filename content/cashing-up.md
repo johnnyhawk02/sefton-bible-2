@@ -4,7 +4,7 @@
 
 ## Cash Up Both Tills
 
-### Order: Till 2 first, then Till 1
+### Do this for each till (in any order)
 
 1. Click the **Cog icon** → **POS Reading** → **Terminal Reading**
 2. Click **Counted Total** → **Generate**
