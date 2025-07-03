@@ -11,13 +11,14 @@
 3. Make a note of number of lockers bands for refund
 4. Click back button and then close button
 5. Go to **POS** and process locker refunds:
-6. Scroll to bottom and **write down cash and card takings**
-7. Press **Close**
-8. When prompted **"Is this your final reading?"** press **No**
-9. Return to **Cog icon** → **POS Reading** → **Terminal**
-10. Click **Counted Total**
-11. **Input the cash and card amounts**
-12. Click **Generate**
+6. repeat steps 1 and 2
+7. Scroll to bottom and **write down cash and card takings**
+8. Press **Close**
+9. When prompted **"Is this your final reading?"** press **No**
+10. Return to **Cog icon** → **POS Reading** → **Terminal**
+11. Click **Counted Total**
+12. **Input the cash and card amounts**
+13. Click **Generate**
 
 ---
 
