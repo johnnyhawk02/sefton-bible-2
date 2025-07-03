@@ -12,13 +12,12 @@
 4. Click back button and then close button
 5. Go to **POS** and process locker refunds:
 6. repeat steps 1 and 2
-7. Scroll to bottom and **write down cash and card takings**
-8. Press **Close**
-9. When prompted **"Is this your final reading?"** press **No**
-10. Return to **Cog icon** → **POS Reading** → **Terminal**
-11. Click **Counted Total**
-12. **Input the cash and card amounts**
-13. Click **Generate**
+7. Scroll to bottom and **write down cash and card takings on spare paper (for use when the z reading is done after both tills are cashed up)** 
+8. Press **back**
+9. **Input the cash and card amounts**
+10. Click **Generate**
+11. When prompted **"Is this your final reading?"** press **yes**
+
 
 ---
 
