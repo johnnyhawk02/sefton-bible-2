@@ -7,8 +7,8 @@
 ### Do this for each till (in any order)
 Take out £50 float
 
-1. Click the **Cog icon** → **POS Reading** → **Terminal Reading**
-2. Click **Counted Total** → **Generate**
+1. Step 1: Click the **Cog icon** → **POS Reading** → **Terminal Reading**
+2. Step 2: Click **Counted Total** → **Generate**
 3. Make a note of number of lockers bands for refund
 4. Click back button and then close button
 5. Go to **POS** and process locker refunds:
