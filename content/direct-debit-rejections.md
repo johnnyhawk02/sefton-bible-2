@@ -1,4 +1,4 @@
-# Direct Debit Rejections
+ # Direct Debit Rejections
 
 > Complete guide to handling direct debit rejections, payment failures, and membership changes with our in-house system.
 
